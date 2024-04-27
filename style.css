@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background: #86b5fb80;
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 50px 30px;
+    background-image: linear-gradient(to right, #9679f7, #86fbf5, #9679f7);
+    box-shadow: #9679f7;
+}
+.container *{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    font-size: 30px;
+
+}
+.outputs-dates{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.outputs-dates div{
+    height: 100px;
+    width: 100px;
+    background-color: #000065;
+    border-radius: 5px;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+.inputs-dates{
+    background-color: #000065;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    margin-bottom: 50px;
+}
+input,
+button{
+    height: 50px;
+    background-color: #ffffff;
+    color: #080808;
+    font-weight: 500;
+    border-radius: 5px;
+}
+input{
+    width: 60%;
+    padding: 0 20px;
+    font-size: 14px;
+}
+button{
+    width: 30%;
+    float: right;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+    color: red;
+    font-weight: 400;
+}
+.ageclacss{
+    text-align: center;
+    margin-top: 12px;
+    font-size:45px;
+    font-weight: bold;
+    color: #000065;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
